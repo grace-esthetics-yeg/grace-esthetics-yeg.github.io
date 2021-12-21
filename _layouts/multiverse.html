@@ -8,8 +8,16 @@
     <div id="wrapper">
 
       {%- include header.html -%}
-
       <div id="main">
+        <h1>GRACE ESTHETICS YEG</h1>
+        <ul>
+          <li>Advanced Facials</li>
+          <li>Dermaplanning </li>
+          <li>Microdermabrasion</li>
+          <li>Brow and Lash Services</li>
+          <li>Make-up</li>
+          <li>Hairstyles</li>
+        </ul>
         {% for image in site.images %}
         <article class="thumb">
           <a href="{{site.baseurl}}/assets/images/fulls/{{ image.path | split: '/' | last | split: '.' | first }}.jpg" class="image">
